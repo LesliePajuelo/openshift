@@ -33,3 +33,9 @@ bower_components/
 .floobit
 .floo
 .flooignore
+
+#seed stuff
+.bowerrc
+.jshintrc
+.travis.yml
+
