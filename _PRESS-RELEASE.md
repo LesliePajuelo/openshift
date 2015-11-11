@@ -17,22 +17,22 @@ Once the project moves into development, the press release can be used as a touc
  -->
  
 ## Heading ##
-  > Name the product in a way the reader (i.e. your target customers) will understand.
+Salary vs Housing
 
 ## Sub-Heading ##
-  > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+Get the most out of your software engineering salaray with the lowest housing cost ratio close to work.
 
 ## Summary ##
-  > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+A general rule of budgeting is that your cost of housing shouldn't be greater than 30%. However, some places in the country, especially those with the highest salaries for software engineers also have a high cost of living. This table will sort the places with 20 or more software engineering jobs versus the cost of a 3 bedroom house within 30 miles.
 
 ## Problem ##
-  > Describe the problem your product solves.
+For people that are flexible with their location it's difficult to narrow down the whole country.
 
 ## Solution ##
-  > Describe how your product elegantly solves the problem.
+For those in the USA it will give a solid number of how far your salary will go in relation to housing costs.
 
 ## Quote from You ##
-  > A quote from a spokesperson in your company.
+Who knew North Dakota was the best!
 
 ## How to Get Started ##
   > Describe how easy it is to get started.
