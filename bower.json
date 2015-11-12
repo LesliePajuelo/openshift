@@ -4,9 +4,6 @@
   "version": "0.0.0",
   "homepage": "https://github.com/angular/angular-seed",
   "license": "MIT",
-  "engines": {
-    "node": "4.1.1"
-  },
   "dependencies": {
     "angular": "~1.4.0",
     "angular-route": "~1.4.0",
