@@ -4,25 +4,21 @@
   Heading for the table
 </heading>
   <article class = "col-md-8">
-     <table class = "table">
-      <th>Table</th>
-        <tbody>
-          <tr>
-            <td class="active">Location</td>
-            <td class="success">ratio</td>
-            <td class="warning">warning</td>
-            <td class="danger">danger</td>
-            <td class="info">info</td>
-          </tr>
-          <tr>
-            <td class="active">active</td>
-            <td class="success">sucess</td>
-            <td class="warning">warning</td>
-            <td class="danger">danger</td>
-            <td class="info">info</td>
-          </tr>
-        </tbody>
-      </table>
+     
+<<table st-table="rowCollection" class="table table-striped">
+  <thead>
+  <tr>
+    <th st-sort="getters.firstName">Location</th>
+    <th st-sort="lastName">Cost of Housing per year</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr ng-repeat="row in rowCollection">
+    <td>{{row.Areaname | uppercase}}</td>
+    <td>{{row.Rent50_3 * 12}}</td>
+  </tr>
+  </tbody>
+</table>
   
   </article>
 <aside class = "col-md-4">
