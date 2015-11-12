@@ -7,14 +7,16 @@ angular.module('myApp.table', ['ngRoute', 'smart-table'])
     templateUrl: 'Table/table.html',
     controller: 'filterCtrl'
   });
-}]).controller('filterCtrl', ['$scope', '$filter', function (scope, filter) {
-
+}]).controller('filterCtrl', ['$scope', '$filter', function ($scope, filter) {
+  $scope.sortType = "AREA_NAME";
+  $scope.sortRevers = false;
+  $scope.searchLocation="";
 
 
 
   //http://lorenzofox3.github.io/smart-table-website/
-    scope.predicates = ['Areaname', 'Rent50_3'];
-    scope.selectedPredicate = scope.predicates[0];
+    // scope.predicates = ['Areaname', 'Rent50_3'];
+    // scope.selectedPredicate = scope.predicates[0];
 }]).controller("PostsCtrl", function($scope, $http) {
   //Pulling in housing data, incomplete
   $http.get('assets/joined.json').
