@@ -1,12 +1,16 @@
 {
-  "name": "angular-seed",
+  "name": "Engineer vs COLA",
   "private": true,
   "version": "0.0.0",
-  "description": "A starter project for AngularJS",
-  "repository": "https://github.com/angular/angular-seed",
+  "description": "Ratio of Software engineer salaries to rentals",
+  "engines":{
+    "node": "4.2.1",
+    "npm": "3.3.1"
+  },
+  "repository": "https://github.com/LesliePajuelo/2015-10-solo.git",
   "license": "MIT",
   "devDependencies": {
-    "bower": "^1.3.1",
+    "bower": "1.6.5",
     "http-server": "^0.6.1",
     "jasmine-core": "^2.3.4",
     "karma": "~0.12",
