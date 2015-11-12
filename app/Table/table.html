@@ -1,7 +1,7 @@
 <div ng-app>
 <div class ="row">
 <heading class = "col-md-8">
-  Heading for the table
+
 </heading>
   <article class = "col-md-8" ng-controller="PostsCtrl">
      
@@ -9,13 +9,15 @@
   <thead>
   <tr>
     <th st-sort="getters.firstName">Location</th>
-    <th st-sort="lastName">Cost of Housing per year</th>
+    <th st-sort="lastName">Title</th>
+    <th st-sort="lastName">3rd qt housing/median salary</th>
   </tr>
   </thead>
   <tbody>
   <tr ng-repeat="post in posts">
-    <td>{{post.Areaname | uppercase}}</td>
-    <td>{{post.Rent50_3 * 12}}</td>
+    <td>{{post.AREA_NAME}}</td>
+    <td>{{post.OCC_TITLE}}</td>
+    <td>{{post.Ratio}}</td>
   </tr>
   </tbody>
 </table>
@@ -26,11 +28,6 @@
   or 
   Zillow housing 
   feed
-   <div ng-controller="PostsCtrl">
-    <ul ng-repeat="post in posts">
-      <li>{{post.Areaname}}</li>
-    </ul>
-  </div>
 </aside>
 
 </div>

@@ -16,11 +16,21 @@ angular.module('myApp.table', ['ngRoute', 'smart-table'])
     scope.predicates = ['Areaname', 'Rent50_3'];
     scope.selectedPredicate = scope.predicates[0];
 }]).controller("PostsCtrl", function($scope, $http) {
-  $http.get('assets/housing.json').
-    success(function(data, status, headers, config) {
+  //Pulling in housing data, incomplete
+  $http.get('assets/joined.json').
+    success(function(data) {
       $scope.posts = data;
     }).
-    error(function(data, status, headers, config) {
+    error(function(data) {
       // log error
     });
+
+    //trying to pull in indeed data
+    
+    var location = 93306
+
+
+    
+
+
 });
