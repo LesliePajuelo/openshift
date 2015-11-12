@@ -14,10 +14,12 @@
   </tr>
   </thead>
   <tbody>
-  <tr ng-repeat="post in posts">
+  <tr ng-repeat="post in posts"
+  ng-class="{success:(post.Ratio<0.25),danger:(post.Ratio>0.35)}">
+  >
     <td>{{post.AREA_NAME}}</td>
     <td>{{post.OCC_TITLE}}</td>
-    <td>{{post.Ratio}}</td>
+    <td>{{post.Ratio*100 | number:1}}</td>
   </tr>
   </tbody>
 </table>
