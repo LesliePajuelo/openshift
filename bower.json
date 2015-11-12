@@ -17,6 +17,7 @@
     "bower": "*",
     "install": "~1.0.4",
     "angular-smart-table": "~2.1.4",
-    "jquery": "~2.1.4"
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5"
   }
 }
