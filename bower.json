@@ -18,7 +18,6 @@
     "bower": "*",
     "install": "~1.0.4",
     "angular-smart-table": "~2.1.4",
-    "font-awesome": "fontawesome#~4.4.0",
     "jquery": "~2.1.4"
   }
 }
