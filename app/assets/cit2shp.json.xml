@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="http://www.fgdc.gov/metadata/fgdc-std-001-1998.xsd">
+   <idinfo>
+      <citation>
+         <citeinfo>
+            <origin>Earth Data Analysis Center</origin>
+            <pubdate>20090305</pubdate>
+            <title>Metro Boundary of Towns &gt; 5000 Population</title>
+            <edition>First</edition>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+               <pubplace>Albuquerque</pubplace>
+               <publish>Earth Data Analysis Center</publish>
+            </pubinfo>
+            <onlink>http://rgis.unm.edu</onlink>
+            <onlink>http://gstore.unm.edu/apps/rgis/datasets/aca5b4b1-b439-4856-87cd-53b473154f57/services/ogc/wms?SERVICE=wms&amp;REQUEST=GetCapabilities&amp;VERSION=1.1.1</onlink>
+            <onlink>http://gstore.unm.edu/apps/rgis/datasets/aca5b4b1-b439-4856-87cd-53b473154f57/services/ogc/wfs?SERVICE=wfs&amp;REQUEST=GetCapabilities&amp;VERSION=1.0.0</onlink>
+            <onlink>http://gstore.unm.edu/apps/rgis/datasets/aca5b4b1-b439-4856-87cd-53b473154f57/cit2shp.derived.shp</onlink>
+            <onlink>http://gstore.unm.edu/apps/rgis/datasets/aca5b4b1-b439-4856-87cd-53b473154f57/cit2shp.original.zip</onlink>
+            <onlink>http://gstore.unm.edu/apps/rgis/datasets/aca5b4b1-b439-4856-87cd-53b473154f57/cit2shp.derived.gml</onlink>
+            <onlink>http://gstore.unm.edu/apps/rgis/datasets/aca5b4b1-b439-4856-87cd-53b473154f57/cit2shp.derived.kml</onlink>
+            <onlink>http://gstore.unm.edu/apps/rgis/datasets/aca5b4b1-b439-4856-87cd-53b473154f57/cit2shp.derived.geojson</onlink>
+            <onlink>http://gstore.unm.edu/apps/rgis/datasets/aca5b4b1-b439-4856-87cd-53b473154f57/cit2shp.derived.json</onlink>
+            <onlink>http://gstore.unm.edu/apps/rgis/datasets/aca5b4b1-b439-4856-87cd-53b473154f57/cit2shp.derived.csv</onlink>
+            <onlink>http://gstore.unm.edu/apps/rgis/datasets/aca5b4b1-b439-4856-87cd-53b473154f57/cit2shp.derived.xls</onlink>
+            <onlink>http://gstore.unm.edu/apps/rgis/datasets/aca5b4b1-b439-4856-87cd-53b473154f57/metadata/FGDC-STD-001-1998.xml</onlink>
+            <onlink>http://gstore.unm.edu/apps/rgis/datasets/aca5b4b1-b439-4856-87cd-53b473154f57/metadata/FGDC-STD-001-1998.html</onlink>
+            <onlink>http://gstore.unm.edu/apps/rgis/datasets/aca5b4b1-b439-4856-87cd-53b473154f57/metadata/ISO-19115:2003.xml</onlink>
+            <onlink>http://gstore.unm.edu/apps/rgis/datasets/aca5b4b1-b439-4856-87cd-53b473154f57/metadata/ISO-19115:2003.html</onlink>
+            <onlink>http://gstore.unm.edu/apps/rgis/datasets/aca5b4b1-b439-4856-87cd-53b473154f57/metadata/ISO-19119:WMS.xml</onlink>
+            <onlink>http://gstore.unm.edu/apps/rgis/datasets/aca5b4b1-b439-4856-87cd-53b473154f57/metadata/ISO-19119:WFS.xml</onlink>
+            <onlink>http://gstore.unm.edu/apps/rgis/datasets/aca5b4b1-b439-4856-87cd-53b473154f57/metadata/ISO-19110.xml</onlink>
+         </citeinfo>
+      </citation>
+      <descript>
+         <abstract>This data set is a vector polygon digital data structure taken from the Census
+				Bureau's TIGER/Line Files, 1994, for New Mexico. The source software used was
+				ARC/INFO 7.0.3.</abstract>
+         <purpose>Projects utilizing geographic data of New Mexico</purpose>
+      </descript>
+      <timeperd>
+         <timeinfo>
+            <sngdate>
+               <caldate>19940101</caldate>
+            </sngdate>
+         </timeinfo>
+         <current>publication date</current>
+      </timeperd>
+      <status>
+         <progress>Complete</progress>
+         <update>As needed</update>
+      </status>
+      <spdom>
+         <bounding>
+            <westbc>-109.046070090984</westbc>
+            <eastbc>-103.043585660218</eastbc>
+            <northbc>36.9707918377872</northbc>
+            <southbc>31.7839077330693</southbc>
+         </bounding>
+      </spdom>
+      <keywords>
+         <theme>
+            <themekt>ISO 19115 Topic Categories</themekt>
+            <themekey>location</themekey>
+         </theme>
+         <theme>
+            <themekt>none</themekt>
+            <themekey>city boundaries</themekey>
+         </theme>
+         <place>
+            <placekt>Spatial Reference System Identifiers</placekt>
+            <placekey>EPSG:4269</placekey>
+            <placekey>EPSG:7019</placekey>
+         </place>
+         <place>
+            <placekt>none</placekt>
+            <placekey>New Mexico</placekey>
+         </place>
+      </keywords>
+      <accconst>None</accconst>
+      <useconst>Resource Geographic Information System (RGIS) Program assumes no liability for
+			misuse of the data. Data should be used at the scale for which they were intended. No
+			warranty, expressed, or implied, is made by Earth Data Analysis Center (EDAC) regarding
+			the utility of the data on any other system, nor shall the act of distribution
+			constitute such warranty.</useconst>
+      <native>Microsoft Windows 2000 Version 5.2 (Build 3790) Service Pack 2; ESRI ArcCatalog
+		9.3.1.1850</native>
+   </idinfo>
+   <dataqual>
+      <logic>Polygon topology present. Tolerances were chosen to prevent errors in labels,
+			intersections, tics, overshoots, and undershoots. Tests were performed to detect these
+			types of errors and necessary corrections were made.</logic>
+      <complete>Data completeness reflects the content of the source file.</complete>
+      <posacc>
+         <horizpa>
+            <horizpar>The root-mean square error is generally .003 map units or less.</horizpar>
+         </horizpa>
+      </posacc>
+      <lineage>
+         <procstep>
+            <procdesc>Import cover. Build coverage</procdesc>
+            <procdate>19960710</procdate>
+            <proccont>
+               <cntinfo>
+                  <cntorgp>
+                     <cntorg>Earth Data Analysis Center</cntorg>
+                  </cntorgp>
+                  <cntpos>RGIS Clearnghouse Manager</cntpos>
+                  <cntaddr>
+                     <addrtype>mailing address</addrtype>
+                     <address>MSC01 1110</address>
+                     <address>1 University of New Mexico</address>
+                     <city>Albuquerque</city>
+                     <state>NM</state>
+                     <postal>87131-0001</postal>
+                     <country>USA</country>
+                  </cntaddr>
+                  <cntvoice>505-277-3622</cntvoice>
+                  <cntfax>505-277-3614</cntfax>
+                  <cntemail>clearinghouse@edac.unm.edu</cntemail>
+                  <hours>8AM - 5PM Mountain Time</hours>
+               </cntinfo>
+            </proccont>
+         </procstep>
+         <procstep>
+            <procdesc>Import Cover. Edit coverage.</procdesc>
+            <procdate>19970318</procdate>
+            <proccont>
+               <cntinfo>
+                  <cntorgp>
+                     <cntorg>Earth Data Analysis Center</cntorg>
+                  </cntorgp>
+                  <cntpos>RGIS Clearinghouse Manager</cntpos>
+                  <cntaddr>
+                     <addrtype>mailing address</addrtype>
+                     <address>MSC01 1110</address>
+                     <address>1 Univer of New Mexico</address>
+                     <city>Albuquerque</city>
+                     <state>NM</state>
+                     <postal>871331-0001</postal>
+                     <country>USA</country>
+                  </cntaddr>
+                  <cntvoice>505-277-3622</cntvoice>
+                  <cntfax>505-277-3614</cntfax>
+                  <cntemail>clearinghouse@edac.unm.edu</cntemail>
+                  <hours>8AM - 5PM Mountain Time</hours>
+               </cntinfo>
+            </proccont>
+         </procstep>
+         <procstep>
+            <procdesc>Import coverage. Create Metadata. Create shapefile.</procdesc>
+            <procdate>19970325</procdate>
+            <proccont>
+               <cntinfo>
+                  <cntorgp>
+                     <cntorg>Earth Data Analysis Center</cntorg>
+                  </cntorgp>
+                  <cntpos>RGIS Clearinghouse Manager</cntpos>
+                  <cntaddr>
+                     <addrtype>mailing address</addrtype>
+                     <address>MSC01 1110</address>
+                     <address>1 Univer of New Mexico</address>
+                     <city>Albuquerque</city>
+                     <state>NM</state>
+                     <postal>871331-0001</postal>
+                     <country>USA</country>
+                  </cntaddr>
+                  <cntvoice>505-277-3622</cntvoice>
+                  <cntfax>505-277-3614</cntfax>
+                  <cntemail>clearinghouse@edac.unm.edu</cntemail>
+                  <hours>8AM - 5PM Mountain Time</hours>
+               </cntinfo>
+            </proccont>
+         </procstep>
+      </lineage>
+   </dataqual>
+   <spdoinfo>
+      <indspref>New Mexico (35)</indspref>
+      <direct>Vector</direct>
+      <ptvctinf>
+         <sdtsterm>
+            <sdtstype>G-polygon</sdtstype>
+            <ptvctcnt>330</ptvctcnt>
+         </sdtsterm>
+         <sdtsterm>
+            <sdtstype>String</sdtstype>
+            <ptvctcnt>735</ptvctcnt>
+         </sdtsterm>
+         <sdtsterm>
+            <sdtstype>GT-polygon composed of chains</sdtstype>
+            <ptvctcnt>331</ptvctcnt>
+         </sdtsterm>
+      </ptvctinf>
+   </spdoinfo>
+   <eainfo>
+      <detailed>
+         <enttyp>
+            <enttypl>cit0002</enttypl>
+            <enttypd>Polgon shapefile</enttypd>
+            <enttypds>ESRI</enttypds>
+         </enttyp>
+         <attr>
+            <attrlabl>FID</attrlabl>
+            <attrdef>Internal feature number.</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <udom>Sequential unique whole numbers that are automatically generated.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>Shape</attrlabl>
+            <attrdef>Feature geometry.</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <udom>Coordinates defining the features.</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>AREA</attrlabl>
+            <attrdef>Area of poly/region in square coverage units</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>Positive real numbers</edomv>
+                  <edomvd>n/a</edomvd>
+                  <edomvds>n/a</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>PERIMETER</attrlabl>
+            <attrdef>Perimeter of poly/region in coverage units</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>Positive real numbers</edomv>
+                  <edomvd>n/a</edomvd>
+                  <edomvds>n/a</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>CIT0002_</attrlabl>
+            <attrdef>Internal feature number</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>Sequential unique positive integer</edomv>
+                  <edomvd>n/a</edomvd>
+                  <edomvds>n/a</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>CIT0002_ID</attrlabl>
+            <attrdef>User-assigned feature number</attrdef>
+            <attrdefs>User defined</attrdefs>
+            <attrdomv>
+               <edom>
+                  <edomv>Integer</edomv>
+                  <edomvd>n/a</edomvd>
+                  <edomvds>n/a</edomvds>
+               </edom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>FPL</attrlabl>
+            <attrdef>FIPS Code for Place</attrdef>
+            <attrdefs>Census Bureau</attrdefs>
+            <attrdomv>
+               <udom>Place FIPS Code</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>STATFIPS</attrlabl>
+            <attrdef>State FIPS code</attrdef>
+            <attrdefs>Census Bureau</attrdefs>
+            <attrdomv>
+               <udom>State FIPS Code</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>PLACFIPS</attrlabl>
+            <attrdef>Place FIPS Code</attrdef>
+            <attrdefs>Census Bureau</attrdefs>
+            <attrdomv>
+               <udom>Place FIPS Code</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>NAME</attrlabl>
+            <attrdef>Name of Town/City</attrdef>
+            <attrdefs>Census Bureau</attrdefs>
+            <attrdomv>
+               <udom>Town or City Name</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>STATE</attrlabl>
+            <attrdef>State Abbreviation</attrdef>
+            <attrdefs>Census Bureau</attrdefs>
+            <attrdomv>
+               <udom>State Abbreviation</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>TOTALPOP</attrlabl>
+            <attrdef>Total Population 1990</attrdef>
+            <attrdefs>Census Bureau</attrdefs>
+            <attrdomv>
+               <udom>Total Population, 1990</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>HOUSEUNT</attrlabl>
+            <attrdef>Housing Units, 1990</attrdef>
+            <attrdefs>Census Bureau</attrdefs>
+            <attrdomv>
+               <udom>Housing Units, 1990</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>LANDAREA</attrlabl>
+            <attrdef>Land Area for Incorporated Place</attrdef>
+            <attrdefs>Census Bureau</attrdefs>
+            <attrdomv>
+               <udom>Land Area for Incorporated Place</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>WATRAREA</attrlabl>
+            <attrdef>Water Area for Incorporated Place</attrdef>
+            <attrdefs>Census Bureau</attrdefs>
+            <attrdomv>
+               <udom>Water Area for Incorporated Place</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>LAT</attrlabl>
+            <attrdef>Latitude</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <udom>Latitude</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>LONG</attrlabl>
+            <attrdef>Longitude</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <udom>Longitude</udom>
+            </attrdomv>
+         </attr>
+      </detailed>
+   </eainfo>
+   <distinfo>
+      <distrib>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>Earth Data Analysis Center</cntorg>
+            </cntorgp>
+            <cntpos>Clearinghouse Manager</cntpos>
+            <cntaddr>
+               <addrtype>mailing and physical address</addrtype>
+               <address>MSC01 1110</address>
+               <address>1 University of New Mexico</address>
+               <city>Albuquerque</city>
+               <state>NM</state>
+               <postal>87131-0001</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>505-277-3622 ext. 230</cntvoice>
+            <cntfax>505-277-3614</cntfax>
+            <cntemail>clearinghouse@edac.unm.edu</cntemail>
+            <hours>0800 - 1700 MT, M-F -7 hours GMT</hours>
+         </cntinfo>
+      </distrib>
+      <resdesc>Downloadable Data</resdesc>
+      <distliab>The material on this site is made available as a public service. Maps and data are to be used for reference purposes only and the Earth Data Analysis Center (EDAC), Resource Geographic Information System (RGIS) and The University of New Mexico are not responsible for any inaccuracies herein contained. No responsibility is assumed for damages or other liabilities due to the accuracy, availability, use or misuse of the information herein provided. Unless otherwise indicated in the documentation (metadata) for individual data sets, information on this site is public domain and may be copied without permission; citation of the source is appreciated.</distliab>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>ZIP</formname>
+               <transize>1</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://gstore.unm.edu/apps/rgis/datasets/aca5b4b1-b439-4856-87cd-53b473154f57/cit2shp.original.zip</networkr>
+                     </networka>
+                  </computer>
+                  <accinstr>Download from Resource Geographic Information System (RGIS) at http://rgis.unm.edu.</accinstr>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. The files are available to download from Resource Geographic Information System (RGIS) (http://rgis.unm.edu).</fees>
+         <ordering>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</ordering>
+      </stdorder>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>ESRI Shapefile (shp)</formname>
+               <transize>5</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://gstore.unm.edu/apps/rgis/datasets/aca5b4b1-b439-4856-87cd-53b473154f57/cit2shp.derived.shp</networkr>
+                     </networka>
+                  </computer>
+                  <accinstr>Download from Resource Geographic Information System (RGIS) at http://rgis.unm.edu.</accinstr>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. The files are available to download from Resource Geographic Information System (RGIS) (http://rgis.unm.edu).</fees>
+         <ordering>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</ordering>
+      </stdorder>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>GML</formname>
+               <transize>5</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://gstore.unm.edu/apps/rgis/datasets/aca5b4b1-b439-4856-87cd-53b473154f57/cit2shp.derived.gml</networkr>
+                     </networka>
+                  </computer>
+                  <accinstr>Download from Resource Geographic Information System (RGIS) at http://rgis.unm.edu.</accinstr>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. The files are available to download from Resource Geographic Information System (RGIS) (http://rgis.unm.edu).</fees>
+         <ordering>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</ordering>
+      </stdorder>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>KML</formname>
+               <transize>5</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://gstore.unm.edu/apps/rgis/datasets/aca5b4b1-b439-4856-87cd-53b473154f57/cit2shp.derived.kml</networkr>
+                     </networka>
+                  </computer>
+                  <accinstr>Download from Resource Geographic Information System (RGIS) at http://rgis.unm.edu.</accinstr>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. The files are available to download from Resource Geographic Information System (RGIS) (http://rgis.unm.edu).</fees>
+         <ordering>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</ordering>
+      </stdorder>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>GeoJSON</formname>
+               <transize>5</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://gstore.unm.edu/apps/rgis/datasets/aca5b4b1-b439-4856-87cd-53b473154f57/cit2shp.derived.geojson</networkr>
+                     </networka>
+                  </computer>
+                  <accinstr>Download from Resource Geographic Information System (RGIS) at http://rgis.unm.edu.</accinstr>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. The files are available to download from Resource Geographic Information System (RGIS) (http://rgis.unm.edu).</fees>
+         <ordering>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</ordering>
+      </stdorder>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>JSON</formname>
+               <transize>5</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://gstore.unm.edu/apps/rgis/datasets/aca5b4b1-b439-4856-87cd-53b473154f57/cit2shp.derived.json</networkr>
+                     </networka>
+                  </computer>
+                  <accinstr>Download from Resource Geographic Information System (RGIS) at http://rgis.unm.edu.</accinstr>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. The files are available to download from Resource Geographic Information System (RGIS) (http://rgis.unm.edu).</fees>
+         <ordering>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</ordering>
+      </stdorder>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>Comma Separated Values (csv)</formname>
+               <transize>5</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://gstore.unm.edu/apps/rgis/datasets/aca5b4b1-b439-4856-87cd-53b473154f57/cit2shp.derived.csv</networkr>
+                     </networka>
+                  </computer>
+                  <accinstr>Download from Resource Geographic Information System (RGIS) at http://rgis.unm.edu.</accinstr>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. The files are available to download from Resource Geographic Information System (RGIS) (http://rgis.unm.edu).</fees>
+         <ordering>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</ordering>
+      </stdorder>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>MS Excel format (xls)</formname>
+               <transize>5</transize>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://gstore.unm.edu/apps/rgis/datasets/aca5b4b1-b439-4856-87cd-53b473154f57/cit2shp.derived.xls</networkr>
+                     </networka>
+                  </computer>
+                  <accinstr>Download from Resource Geographic Information System (RGIS) at http://rgis.unm.edu.</accinstr>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. The files are available to download from Resource Geographic Information System (RGIS) (http://rgis.unm.edu).</fees>
+         <ordering>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</ordering>
+      </stdorder>
+      <custom>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</custom>
+      <techpreq>Adequate computer capability is the only technical prerequisite for viewing data in digital form.</techpreq>
+   </distinfo>
+   <metainfo>
+      <metd>20151112</metd>
+      <metc>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>Earth Data Analysis Center</cntorg>
+            </cntorgp>
+            <cntpos>Clearinghouse Manager</cntpos>
+            <cntaddr>
+               <addrtype>mailing and physical address</addrtype>
+               <address>MSC01 1110</address>
+               <address>1 University of New Mexico</address>
+               <city>Albuquerque</city>
+               <state>NM</state>
+               <postal>87131-0001</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>505-277-3622 ext. 230</cntvoice>
+            <cntfax>505-277-3614</cntfax>
+            <cntemail>clearinghouse@edac.unm.edu</cntemail>
+            <hours>0800 - 1700 MT, M-F -7 hours GMT</hours>
+         </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <mettc>local time</mettc>
+   </metainfo>
+</metadata>
