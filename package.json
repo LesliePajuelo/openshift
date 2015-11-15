@@ -10,15 +10,17 @@
   "repository": "https://github.com/LesliePajuelo/2015-10-solo.git",
   "license": "MIT",
   "devDependencies": {
-    "bower": "1.6.5",
     "http-server": "^0.6.1"
   },
   "scripts": {
-    "postinstall": "bower install",
     "prestart": "npm install",
     "start": "http-server -a localhost -p 8000 -c-1"
   },
   "dependencies": {
+    "angular": "^1.4.7",
+    "angular-bootstrap": "^0.12.2",
+    "angular-route": "^1.4.7",
+    "angular-smart-table": "^2.1.5",
     "bower": "^1.6.5",
     "leaflet": "^0.7.7"
   }
